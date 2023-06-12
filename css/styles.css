@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Castoro+Titling&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 100% auto;
+}
+body>*{
+    grid-column: 1 / -1;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 2.9rem;
+}
+h2{
+    /* color:#fff3cd; */
+    color: black;
+}
+p{
+font-size: 1rem;
+color: #fff3cd;
+/* color: black; */
+}
+.footer{
+    color: black;
+    background:#fff3cd;
+    text-align: center;
+}
+
+.homepage {
+    background-image: url('https://i.postimg.cc/vZjJ7TnN/22-SS-Social-TS-Football-Q3-Fastest-Pack-Future-Neymar-0247-16x9.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 75%;
+    /* background: url('https://i.postimg.cc/vZjJ7TnN/22-SS-Social-TS-Football-Q3-Fastest-Pack-Future-Neymar-0247-16x9.webp') no-repeat center center;
+    background-size: cover; 
+    background-image: linear-gradient(180deg, #df27a8, #cf0cc8, #f50a4c, #e96806, #aeff00);
+    width: 100%;
+    height: 100vh;*/
+}
+.btn{ 
+    background-color: #fff3cd;
+    color: black;
+}
+.cards{
+    text-align: center;
+}
