@@ -14,13 +14,18 @@ body{
 }
 .navBar{
     padding:1.5rem;
+    background-color: #a2926b;
+}
+.bg{
+    background-color: #f3edde;
 }
 
 .nav-link:hover{
-    color:#fff3cd;
+    color:#f3edde;
 }
 body>*{
     grid-column: 1 / -1;
+    
 }
 h1{
     margin: 2rem;
@@ -36,17 +41,19 @@ h2{
     margin: 2rem;
 }
 .lead{
-    background: #000;
-    opacity: 80%;
+    background: #a2926b;
+    opacity: 90%;
+    border-radius: 0.5em;
+    
 }
 p{
 font-size: 1rem;
-color: #fff3cd;
+color:#f3edde;
 /* color: black; */
 }
 .footer{
     color: black;
-    background:#fff3cd;
+    background:#a2926b;
     text-align: center;
     padding:1.5rem;
 }
@@ -58,19 +65,18 @@ color: #fff3cd;
     outline-color: #000;
 }
 .homepage{
-    background-image: url('https://i.postimg.cc/vZjJ7TnN/22-SS-Social-TS-Football-Q3-Fastest-Pack-Future-Neymar-0247-16x9.webp');
+    background-color:#f3edde;
+    /* background-image: url('https://i.postimg.cc/vZjJ7TnN/22-SS-Social-TS-Football-Q3-Fastest-Pack-Future-Neymar-0247-16x9.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 80%;
+    opacity: 80%; */
     /* background: url('https://i.postimg.cc/vZjJ7TnN/22-SS-Social-TS-Football-Q3-Fastest-Pack-Future-Neymar-0247-16x9.webp') no-repeat center center;
-    background-size: cover; 
-    background-image: linear-gradient(180deg, #df27a8, #cf0cc8, #f50a4c, #e96806, #aeff00);
     width: 100%;
     height: 100vh;*/
 }
 .btn{ 
-    background-color: #fff3cd;
+    background-color:#a2926b;
     color: black;
     outline: #000;
 }
@@ -109,11 +115,19 @@ button{
     align-items: center;
 }
 #buttonE{
-    background-color: #fff3cd;
+    background-color:#a2926b;
 }
 #buttonD{ 
-    background-color: #fff3cd;
+    background-color: #a2926b;
 }
 .about{
     color: #000;
+}
+.middlePic{ 
+    width:25rem;
+    height:35rem;
+
+}
+.about{
+    text-align: center;
 }
