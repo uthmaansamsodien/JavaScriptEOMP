@@ -45,23 +45,25 @@ let details = [
     }, 
     {
         id: 8,
-        name: 'ADIDAS, Preditor',
+        name: 'ADIDAS, Predator',
         price: 'R2199',
-        image: 'https://i.postimg.cc/KcM5vYMF/adidas-predator-18-4-fxg-jr-db2321-football-boots-green-multicolored-2000x2000.jpg'
+        image: 'https://i.postimg.cc/25h0L3xL/adidas-predator-18-4-fxg-jr-db2321-football-boots-green-multicolored-2000x2000-removebg-preview.png'
     },
     {
         id: 9,
         name: 'PUMA, Future Ultimate (BLACK)',
         price: 'R3599',
-        image: 'https://i.postimg.cc/y6MHBYjB/107164-02-sv01.jpg'
+        image: 'https://i.postimg.cc/SxfCbqTp/107164-02-sv01-removebg-preview.png'
     },
     {
         id: 10,
         name: 'NIKE, Zoom Mercurial Dream Speed Superfly 9 (CR7)',
         price: 'R5399',
-        image: 'https://i.postimg.cc/Pq5P9LdH/zoom-mercurial-dream-speed-superfly-9-elite-fg-football-boot-cr83p-T.jpg'
+        image: 'https://i.postimg.cc/zBj1mq36/zoom-mercurial-dream-speed-superfly-9-elite-fg-football-boot-cr83p-T-removebg-preview.png'
     }
 ]
+
+function anyThing(){
 details.forEach((data) => {
     tabl.innerHTML += `
     <tr>
@@ -73,3 +75,24 @@ details.forEach((data) => {
     <th><button id="buttonD">Delete</button></th>
     </tr>`
 })
+//local storage
+localStorage.setItem("shoes",JSON.stringify(details))
+
+// delete button
+function deleteButtons(){
+        delButton = [...document.querySelectorAll('#buttonD')];
+        delButton.forEach((item)=>{
+            item.addEventListener('click', deleteShoe)
+        })
+    }
+    function deleteShoe(event){
+        tabl.innerHTML= ""
+        let start = delButton.indexOf(event.target);
+        details.splice(start, 1);
+        localStorage.setItem("shoes",JSON.stringify(details))
+        anyThing()
+        
+    }
+deleteButtons()
+}
+anyThing()
