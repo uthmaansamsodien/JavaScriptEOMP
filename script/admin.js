@@ -65,6 +65,7 @@ let details = [
 details.forEach((data) => {
     tabl.innerHTML += `
     <tr>
+    <th>${data.id}</th>
     <th>${data.name}</th>
     <th>${data.price}</th>
     <th><img src="${data.image}" style="height:100px"/></th>
