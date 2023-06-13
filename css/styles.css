@@ -15,6 +15,10 @@ body{
 .navBar{
     padding:1.5rem;
 }
+
+.nav-link:hover{
+    color:#fff3cd;
+}
 body>*{
     grid-column: 1 / -1;
 }
@@ -23,11 +27,17 @@ h1{
     text-align: center;
     color: black;
 }
+.card-text{
+    color: #000;
+}
 h2{
     /* color:#fff3cd; */
     color: black;
     margin: 2rem;
-
+}
+.lead{
+    background: #000;
+    opacity: 80%;
 }
 p{
 font-size: 1rem;
@@ -39,9 +49,14 @@ color: #fff3cd;
     background:#fff3cd;
     text-align: center;
     padding:1.5rem;
-
 }
-
+.btnSeeMore{ 
+    margin: 1rem;
+}
+.buttonA{ 
+    margin: 2rem;
+    outline-color: #000;
+}
 .homepage{
     background-image: url('https://i.postimg.cc/vZjJ7TnN/22-SS-Social-TS-Football-Q3-Fastest-Pack-Future-Neymar-0247-16x9.webp');
     background-repeat: no-repeat;
@@ -57,9 +72,12 @@ color: #fff3cd;
 .btn{ 
     background-color: #fff3cd;
     color: black;
+    outline: #000;
 }
 .cards{
     text-align: center;
+}
+.btnSeeMore{ 
 }
 
 *{
@@ -89,4 +107,13 @@ button{
     justify-content: center;
     display: flex;
     align-items: center;
+}
+#buttonE{
+    background-color: #fff3cd;
+}
+#buttonD{ 
+    background-color: #fff3cd;
+}
+.about{
+    color: #000;
 }

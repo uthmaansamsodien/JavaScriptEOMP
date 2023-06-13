@@ -68,8 +68,7 @@ details.forEach((data) => {
     <th>${data.name}</th>
     <th>${data.price}</th>
     <th><img src="${data.image}" style="height:100px"/></th>
-    <th><button>Edit</button></th>
-    <th><button>Delete</button></th>
+    <th><button id="buttonE">Edit</button></th>
+    <th><button id="buttonD">Delete</button></th>
     </tr>`
-    
 })
