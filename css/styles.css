@@ -90,8 +90,6 @@ color:#f3edde;
 .cards{
     text-align: center;
 }
-.btnSeeMore{ 
-}
 
 *{
     margin: 0;
@@ -157,6 +155,41 @@ button{
     grid-template-columns: ;
 } */
 .cardImg {
-   height: 17rem; 
+   height: 18rem; 
    background-size: cover;
+}
+.card{
+    /* margin-top: 4rem; */
+}
+
+.cardimg{
+    margin-top: 7rem;
+}
+.cardnike{
+    margin-top:rem;
+}
+.cardNB{
+    margin-top: 10.5rem;
+}
+.cardAdi{ 
+    margin-top: 8.9rem;
+}
+.cardUA{ 
+    margin-bottom: 2rem;
+}
+.nikePh{
+    margin-bottom:1rem;
+}
+.cardNike{ 
+    margin-top: 7rem;
+}
+.cardPu{ 
+    margin-top: 1.5rem;
+}
+
+
+.featPic{
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
 }
