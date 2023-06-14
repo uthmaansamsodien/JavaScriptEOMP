@@ -154,13 +154,13 @@ button{
     display: grid;
     grid-template-columns: ;
 } */
-.cardImg {
+/* .cardImg {
    height: 18rem; 
    background-size: cover;
 }
-.card{
+.card{ */
     /* margin-top: 4rem; */
-}
+/* }
 
 .cardimg{
     margin-top: 7rem;
@@ -185,11 +185,14 @@ button{
 }
 .cardPu{ 
     margin-top: 1.5rem;
-}
+} */
 
 
 .featPic{
     height: 200px;
     width: 100%;
     object-fit: contain;
+}
+.mod{
+    background-color:#efdaa0;
 }

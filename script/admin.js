@@ -2,64 +2,74 @@ let tabl =
 document.querySelector('#tbody');
 let details = [
     {
+        id: 0,
+        name: 'PUMA',
+        model: 'Neymar Jr Future 2.4 FG AG',
+        price: 'R4799',
+        image: 'https://i.postimg.cc/qMy6bD43/Puma-Future-Z-NJR-1-4-FG-AG-removebg-preview.png'
+    },
+    {
         id: 1,
-        name: 'NIKE, Zoom Mercurial Vapor 15 Elite',
-        price: 'R5099',
-        image: 'https://i.postimg.cc/Lsmbn43w/5dfb1c83-c4c0-4b16-b78e-d8af300afa2c.webp'
+        name: 'NIKE',
+        model: 'Phantom GT Elite FG',
+        price: 'R4899',
+        image: 'https://i.postimg.cc/fLD9mx69/1061956-removebg-preview.png'
     },
     {
         id: 2,
-        name: 'PUMA, Future Ultimate Creativity',
-        price: 'R4799',
-        image: 'https://i.postimg.cc/zfG4hNFp/png.webp'
+        name: 'ADIDAS',
+        model: 'Predator Edge+',
+        price: 'R5499',
+        image: 'https://i.postimg.cc/CL3dbG8x/adidas-predator-edge-plus-removebg-preview.png' 
     },
     {
         id: 3,
-        name: 'ADIDAS, X Speedportal+',
-        price: 'R5499',
-        image: 'https://i.postimg.cc/BQbFF31j/24713c3db23d4f05adc7afaa00b36e48-9366.webp'
+        name: 'NEW BALANCE',
+        model: 'NB Furon v6',
+        price: 'R1499',
+        image: 'https://i.postimg.cc/MZty0FZK/5f68d0a5bbb7f-removebg-preview.png'
     },
     {
         id: 4,
-        name: 'NEW BALANCE, 422 v2 Pro FG',
-        price: 'R1499',
-        image: 'https://i.postimg.cc/yN6YjJRs/ms41fwd2-nb-02-i.webp'
+        name: 'UNDER ARMOUR',
+        model: 'ClutchFit 3.0 Hybrid SG',
+        price: 'R2899',
+        image: 'https://i.postimg.cc/90NR6szd/1235575-removebg-preview.png'
     },
     {
         id: 5,
-        name: 'UNDER ARMOUR, Shadow Pro FG ',
+        name: 'UNDER ARMOUR',
+        model: 'Clone Magnetico Pro',
         price: 'R2899',
-        image: 'https://i.postimg.cc/q7pgFbPf/3025643-300-DEFAULT.webp'
+        image: 'https://i.postimg.cc/05JzjX6B/Rebel-62717101-whiteblue-hi-res-removebg-preview.png'
     },
     {
         id: 6,
-        name: 'UNDER ARMOUR, Clone Magnetico Premier 2',
-        price: 'R2899',
-        image: 'https://i.postimg.cc/0jSYjVXP/3025641-400-A.webp'
-    },
-    {
-        id: 7,
-        name: 'NEW BALANCE, Tekela V3+ Magique AG',
-        price: 'R1299',
-        image: 'https://i.postimg.cc/KvFF0R78/mst3ap35-nb-02-i.webp'
+        name: 'ADIDAS',
+        model: 'X SpeedPortal.3',
+        price: 'R2199',
+        image: 'https://i.postimg.cc/6q75vq5Z/adidas-x-speedportal-3-mg-removebg-preview.png'
     }, 
     {
-        id: 8,
-        name: 'ADIDAS, Predator',
-        price: 'R2199',
-        image: 'https://i.postimg.cc/25h0L3xL/adidas-predator-18-4-fxg-jr-db2321-football-boots-green-multicolored-2000x2000-removebg-preview.png'
-    },
-    {
-        id: 9,
-        name: 'PUMA, Future Ultimate (BLACK)',
+        id: 7,
+        name:  'PUMA',
+        model: 'Future Ultimate (BLACK)',
         price: 'R3599',
         image: 'https://i.postimg.cc/SxfCbqTp/107164-02-sv01-removebg-preview.png'
     },
     {
-        id: 10,
-        name: 'NIKE, Zoom Mercurial Dream Speed Superfly 9 (CR7)',
-        price: 'R5399',
-        image: 'https://i.postimg.cc/zBj1mq36/zoom-mercurial-dream-speed-superfly-9-elite-fg-football-boot-cr83p-T-removebg-preview.png'
+        id: 8,
+        name:  'NIKE',
+        model: 'CR7 Mercurial "Campeões"',
+        price: 'R6399',
+        image: 'https://i.postimg.cc/fy3ZY8m8/ronaldo-19-min-removebg-preview.png'
+    },
+    {
+        id: 9,
+        name: 'NEW BALANCE', 
+        model: '442 v2',
+        price: 'R1299',
+        image: 'https://i.postimg.cc/fy0DbPBj/M-JS43-FWD2-M-WHITE-V3-550x550-removebg-preview.png'
     }
 ]
 
@@ -70,7 +80,8 @@ details.forEach((data) => {
     <th>${data.id}</th>
     <th>${data.name}</th>
     <th>${data.price}</th>
-    <th><img src="${data.image}" style="height:100px"/></th>
+    <th>${data.model}</th>
+    <th><img src="${data.image}" style="width: 7rem;"/></th>
     <th><button id="buttonE">Edit</button></th>
     <th><button id="buttonD">Delete</button></th>
     </tr>`
