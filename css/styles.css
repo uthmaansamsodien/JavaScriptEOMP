@@ -192,7 +192,61 @@ button{
     height: 200px;
     width: 100%;
     object-fit: contain;
+    transition: all .2s ease-in-out; 
+}
+.featPic:hover{
+    transform: scale(1.3);
+
 }
 .mod{
     background-color:#efdaa0;
+}
+
+.carsprod {
+     height: 400px;
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+}
+
+.image{
+    width: 100%;
+    height: 210px;
+    transition: all .2s ease-in-out; 
+    /* border: 2px solid red; */
+}
+.image:hover{
+    transform: scale(1.3);
+}
+
+
+.image img{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+}
+
+.card-price{
+    color: rgba(0, 0, 0, 0.582);
+}
+.card-price:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* .cardS { */
+    /* display: grid; */
+    /* column-gap: 3rem; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* padding: 5rem; */
+    /* grid-template-rows: max-content; */
+/* } */
+
+#cardZ{ 
+    /* aspect-ratio: 1/2; */
+    object-fit:contain;
+
 }
