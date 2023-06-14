@@ -14,7 +14,7 @@ let content = document.querySelector('.products').innerHTML = `
   <div class="card-body nikePh">
     <h5 class="card-title">NIKE</h5>
     <p class="card-text">Phantom GT Elite FG<br>
-    R5099</p>
+    R4899</p>
     <a href="#" class="btn card">Add to cart</a>
   </div>
 </div>
@@ -67,7 +67,7 @@ let content = document.querySelector('.products').innerHTML = `
   <img src="https://i.postimg.cc/SxfCbqTp/107164-02-sv01-removebg-preview.png" class="card-img-top featPic" alt="logo">
   <div class="card-body">
     <h5 class="card-title">PUMA</h5>
-    <p class="card-text">Future Ultimate (BLACK) <br>
+    <p class="card-text">Future Ultimate (BLACK)<br>
     R3599</p>
     <a href="#" class="btn card">Add to cart</a>
   </div>
@@ -76,8 +76,8 @@ let content = document.querySelector('.products').innerHTML = `
   <img src="https://i.postimg.cc/fy3ZY8m8/ronaldo-19-min-removebg-preview.png" class="card-img-top featPic" alt="logo">
   <div class="card-body">
     <h5 class="card-title">NIKE</h5>
-    <p class="card-text">CR7 Mercurial ‘Campeões’<br>
-    R5399</p>
+    <p class="card-text">CR7 Mercurial 'Campeões'<br>
+    R6399</p>
     <a href="#" class="btn card ">Add to cart</a></a>
   </div>
 </div>

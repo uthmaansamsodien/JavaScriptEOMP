@@ -32,11 +32,11 @@
       </nav>
       <main class="homepage">
         <h1 class="display-1"><ins>Admin:</ins></h1>
-        <button type="button" class="btn buttonA" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Add</button>
+        <button type="button" class="btn buttonA" data-bs-toggle="modal" data-bs-target="#exampleModal">Add product</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content mod">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Add a product</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -45,6 +45,10 @@
         <form>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="nameLabel">
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Model:</label>
             <input type="text" class="form-control" id="nameLabel">
           </div>
           <div class="mb-3">
@@ -72,6 +76,7 @@
             <tr id="rows" class="rowsOne" >
               <th>ID</th>
                 <th>Name:</th>
+                <th>Model:</th>
                 <th>Price:</th>
                 <th>Img:</th>
                 <th>Edit Button</th>
