@@ -96,6 +96,7 @@ function add() {
 }
 anyThing()
 
+//Sort
 sorting.addEventListener("click", (event) => {
     event.preventDefault();
     details.sort((a, b) => {
