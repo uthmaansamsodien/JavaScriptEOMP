@@ -90,7 +90,7 @@ let details = JSON.parse(localStorage.getItem("details"))
         <h5 class="card-title">${data.name}</h5>
         <p class="card-text">${data.model}</p>
         <p class="card-price">${data.price}</p>
-        <a href="#" class="btn btn-warning-subtle">Add to cart</a>
+        <button class="btn btn-warning-subtle" onclick='checkInItem(${JSON.stringify(data)})'>Add to cart</button>
         </div>
         </div>
         `
@@ -99,3 +99,45 @@ let details = JSON.parse(localStorage.getItem("details"))
 anyThing()
 
 console.log(details);
+
+let checkInBox = []
+
+function checkInItem(data){
+    checkInBox.push(data)
+    localStorage.setItem("checkIn", JSON.stringify
+    (checkInBox))
+}
+// console.log(checkInBox);
+
+
+
+// PUT IN CHECKOUT>JS
+// let checkInBox = JSON.parse(localStorage.getItem("checkIn"))
+//   ? JSON.parse(localStorage.getItem("checkIn"))
+//   : [];
+
+//   console.log(checkInBox);
+
+//   let displayBody = document.querySelector('#headBox')
+
+//   checkInBox.forEach((data) => {
+//     displayBody.innerHTML +=
+//     `
+//    <tr>
+//    <td>${data.name}</td>
+//    <td>${data.model}</td>
+//    <td>${data.price}</td>
+//    </tr>
+//    `
+//   });
+
+//PUT IN CHECKOUT>HTML
+{/* <tr>
+<th scope="col">Product Name:</th>
+<th scope="col">Specs:</th>
+<th scope="col">Quantity:</th>
+<th scope="col">Price:</th>
+</tr>
+</thead>
+<tbody id="headBox">
+</tbody> */}
