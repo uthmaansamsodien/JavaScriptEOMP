@@ -1,7 +1,7 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Acme&family=Castoro+Titling&family=Playfair+Display&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Castoro+Titling&family=Playfair+Display&display=swap');
-       ::-webkit-scrollbar{
+ ::-webkit-scrollbar{
             display: none;
         }
 body{
@@ -13,6 +13,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 100% auto;
     overflow-x: hidden;
+    /* height: 179vh; */
     
 }
 .navBar{
@@ -249,5 +250,19 @@ button{
 #cardZ{ 
     /* aspect-ratio: 1/2; */
     object-fit:contain;
-
+}
+.butCheck{ 
+    margin: 1rem;
+}
+#picCheck{
+    width: 8rem;
+}
+.borOne{
+    background-color:#fbf3ce;
+}
+.bordOne{
+    background-color: #fbf3ce;
+}
+th, td{ 
+    background-color:#fbf3ce !important;
 }
